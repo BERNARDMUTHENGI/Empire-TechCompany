@@ -1,0 +1,31 @@
+.about{
+    height: 106vh;
+    background: linear-gradient(to bottom, lightblue, white);
+    
+    
+}
+section{
+    display:flex;
+    gap: 20px;
+    font-size: 14.5px;
+    height: max-content;
+}
+article{
+    height: 30vh;
+    width: 60vh;
+}
+@media only screen and (max-width: 400px){
+    .buruu{
+        display: none;
+
+    }
+    .ondo{
+        display: none;
+    }
+    .toka{
+        display: none;
+    }
+    .digi{
+        margin-top: 46px;
+    }
+}

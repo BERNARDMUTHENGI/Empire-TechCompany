@@ -1,0 +1,67 @@
+.team {
+    height: 100vh;
+    background: linear-gradient(to bottom, lightblue, white);
+}
+.team{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.mimi{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+    
+
+.mimi img{
+    background: linear-gradient(to bottom, lightblue, white);
+  width: 200px; /* Maintain image aspect ratio */
+  height: 200px; /* Maintain image aspect ratio */
+  max-width: 100%; /* Ensure image doesn't overflow the container */
+  max-height: 100%;
+  border-radius: 50%;
+}
+.expo{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.jina{
+    color: blueviolet;
+}
+.karibu{
+    background: linear-gradient(to bottom,white,lightblue );
+}
+.jojo img{
+    background: linear-gradient(to bottom, lightblue, white);
+    width: 200px; /* Maintain image aspect ratio */
+    height: 200px; /* Maintain image aspect ratio */
+    max-width: 100%; /* Ensure image doesn't overflow the container */
+    max-height: 100%;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 400px){
+    .team{
+        display: flex;
+        flex-direction: column;
+    }
+    .mimi img{
+        width: 100px;
+        height: 100px;
+    }
+    .jojo{
+        display: none;
+    }
+}
+@media only screen and (max-device-width: 1440px) and (max-device-height: 3200px){
+    .jojo{
+        display: none;
+    }
+    .mimi{
+        display: flex;
+    
+    }
+}

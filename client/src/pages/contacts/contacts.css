@@ -1,0 +1,57 @@
+.reach{
+    height: 129vh;
+    background: linear-gradient(to bottom, lightblue, white);
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 100px;
+    
+}
+.button{
+    background-color: navy;
+    color: azure;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.para{
+    padding: 0px 100px;
+}
+
+.fill{
+    height: 45vh;
+    width: 40vh;
+    border: 2px solid gray;
+    border-radius: 5px;
+    
+}
+.rada {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+@media only screen and (max-width: 400px) {
+    .hutoboi{
+        display: none;
+    }
+    .fill{
+        border: none;
+        text-align: center;
+        align-items: center;
+    }
+    .reach{
+        height: 102vh;
+    }
+    .jaza{
+        height: 20px;
+        width: 90px;
+        border-radius: 7px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,43 @@
+.kodi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, lightblue, white);
+}
+
+.signup {
+    border: none;
+    padding: 20px;
+    margin: 50px auto; /* Centering horizontally with equal left and right margin */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.submit {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border-radius: 6px;
+    
+}
+
+.signup input[type='password'],
+.signup input[type='email'] {
+    padding: 10px;
+}
+
+.signup button {
+    padding: 10px 20px;
+}
+
+.signup p {
+    text-align: center;
+}
+
+.signup .goto {
+    display: block;
+    text-align: center;
+}
